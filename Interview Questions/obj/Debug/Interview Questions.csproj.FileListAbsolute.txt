@@ -1,0 +1,6 @@
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\bin\Debug\Interview Questions.exe.config
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\obj\Debug\Interview Questions.csprojResolveAssemblyReference.cache
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\bin\Debug\Interview Questions.exe
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\bin\Debug\Interview Questions.pdb
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\obj\Debug\Interview Questions.exe
+C:\Users\akary\Documents\Dev\Code Interview Questions\Interview Questions\obj\Debug\Interview Questions.pdb

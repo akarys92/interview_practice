@@ -1,0 +1,7 @@
+﻿1. Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+2. Implement a function void reverse (char* str) that reverses a null terminated string?
+3. Given two strings write a method to decide if one is a permutation of the other?
+4. Write a method to replace all " "'s in a string with "%20"
+5. Implement a method to perform basic string compression using the counts of repeated charaters for example the string aabcccccaaa would be a2b1c5a3. If the string would not become smaller by compression, return the original string.
+6. Given an image that is an mxn matrix, rotate the picture 90 degrees.
+7. Write an algorithm such that if an element in an MxN matrix is 0 it's entire row and column are set to 0.
