@@ -47,7 +47,14 @@ namespace Interview_Questions.Chapter_1
                         Console.WriteLine(test_1_5.compress_word());
                         break;
                     case "6":
-                        Matrix mat = new Matrix();
+                        Console.WriteLine("X Size?");
+                        string x_size_str = Console.ReadLine();
+                        Console.WriteLine("Y Size?");
+                        string y_size_str = Console.ReadLine();
+                        int x_size = Int32.Parse(x_size_str);
+                        int y_size = Int32.Parse(y_size_str);
+
+                        Matrix mat = new Matrix(x_size,y_size);
                         mat.print_matrix();
                         mat.rotate_90();
                         break;

@@ -28,14 +28,29 @@ namespace Interview_Questions.Chapter_1
             x_size = 10;
             y_size = 6;
         }
-        public Matrix(int in_x, int in_y) {
-
+        public Matrix(int in_x, int in_y)
+        {
+            x_size = in_x;
+            y_size = in_y;
+            structure = new char[y_size, x_size];
+            for (int y = 0; y < y_size; y++)
+            {
+                for (int x = 0; x < x_size; x++)
+                {
+                    Console.WriteLine("Input {" + x + ", " + y + "}");
+                    string input = Console.ReadLine();
+                    char character = input[0];
+                    structure[y, x] = character;
+                }
+            }
         }
+
         public void print_matrix() {
             for (int y = 0; y < y_size; y++)
             {
                 for (int x = 0; x < x_size; x++) {
                     Console.Write(structure[y, x]);
+                    Console.Write(", ");
                 }
                 Console.WriteLine("\n");
             }

@@ -20,7 +20,7 @@ namespace Interview_Questions.Chapter_1
             // If the current letter is the same as curr_letter, iterate counter
             // If not push the letter with count
             // Check if the new word is longer
-            return "poop";
+            return "Not implemented";
         }
     }
 }
