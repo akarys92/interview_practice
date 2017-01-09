@@ -28,6 +28,9 @@ namespace Interview_Questions.Chapter_1
             x_size = 10;
             y_size = 6;
         }
+        public Matrix(int in_x, int in_y) {
+
+        }
         public void print_matrix() {
             for (int y = 0; y < y_size; y++)
             {
