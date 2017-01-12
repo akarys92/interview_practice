@@ -1,0 +1,7 @@
+﻿1) Describe how to use a single array to create 3 stacks
+2) How would you design a stack which in addition to push and pop also had a function min which returns the min element? All operations in O(1)
+3) Implement popAt which pops a specific stack
+4) Towers of Hanoi
+5) Implement a Queue using 2 stacks
+6) Sort a stack in ascending order using only 1 other stack
+7) 

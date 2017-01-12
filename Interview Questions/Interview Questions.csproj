@@ -50,6 +50,12 @@
     <Compile Include="Chapter 1\Number_1_2.cs" />
     <Compile Include="Chapter 1\Number_1_3.cs" />
     <Compile Include="Chapter 1\Number_1_5.cs" />
+    <Compile Include="Chapter 2\Chapter_2_problems.cs" />
+    <Compile Include="Chapter 3\Chapter_3_problems.cs" />
+    <Compile Include="Chapter 3\Number_3_2.cs" />
+    <Compile Include="Chapter 3\Number_3_3.cs" />
+    <Compile Include="Chapter 3\Stack.cs" />
+    <Compile Include="Chapter 3\Stack_of_Stacks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Chapter 1\TextFile1.txt" />
+    <Content Include="Chapter 3\questions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
