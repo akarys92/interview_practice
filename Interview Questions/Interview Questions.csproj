@@ -54,6 +54,11 @@
     <Compile Include="Chapter 3\Chapter_3_problems.cs" />
     <Compile Include="Chapter 3\Number_3_2.cs" />
     <Compile Include="Chapter 3\Number_3_3.cs" />
+    <Compile Include="Chapter 3\Number_3_4.cs" />
+    <Compile Include="Chapter 3\Number_3_5.cs" />
+    <Compile Include="Chapter 3\Number_3_6.cs" />
+    <Compile Include="Chapter 3\Queue.cs" />
+    <Compile Include="Chapter 3\Sorted_Stack.cs" />
     <Compile Include="Chapter 3\Stack.cs" />
     <Compile Include="Chapter 3\Stack_of_Stacks.cs" />
     <Compile Include="Program.cs" />

@@ -63,6 +63,13 @@ namespace Interview_Questions.Chapter_3
             }
             return ret_val;  
         }
+        public void print() {
+            Stack_O_Node temp = head;
+            while (temp != null) {
+                temp.curr.print_stack();
+                temp = temp.next;
+            }
+        }
 
         // Testing, remove this later
         public int get_num_stacks() {

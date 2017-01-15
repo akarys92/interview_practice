@@ -12,49 +12,48 @@ namespace Interview_Questions.Chapter_3
             string problem = "";
             while (problem != "back")
             {
-                Console.WriteLine("Chapter 3: Select a problem (1...) or 'back' to go back");
+                Console.WriteLine("Chapter 3: Select a problem (2,3, 4, 5, 6) or 'back' to go back");
                 problem = Console.ReadLine();
                 switch (problem)
                 {
                     case "1":
-                        string input = "";
-                        Console.WriteLine("Use 'push' to push and 'pop' to pop.");
-                        Stack stack = new Stack();
-                        while (input != "Exit") {
-                            stack.print_stack();
-                            input = Console.ReadLine();
-                            if (input == "push") {
-                                string pusher = Console.ReadLine();
-                                stack.push(Convert.ToInt32(pusher));
-                            }
-                            if (input == "pop") {
-                                Console.WriteLine(stack.pop());
-                            }
-                            
-                        }
+                        Console.WriteLine("Not implemented");
                         break;
                     case "2":
-                        string input2 = "";
-                        Stack_of_Stacks stack_O = new Stack_of_Stacks();
-                        while (input2 != "Exit")
+                        string input = "";
+                        Console.WriteLine("Use 'push' to push and 'pop' to pop, 'min' to get min and 'print' to print.");
+                        Number_3_2 stack = new Number_3_2();
+                        while (input != "Exit")
                         {
-                            Console.WriteLine("Length: " + stack_O.Length + ". In " + stack_O.get_num_stacks() + " stacks.");
+                            stack.print_stack();
                             input = Console.ReadLine();
                             if (input == "push")
                             {
-                                int pusher = Convert.ToInt32(Console.ReadLine());
-                                stack_O.push(pusher);
+                                string pusher = Console.ReadLine();
+                                stack.push(Convert.ToInt32(pusher));
                             }
                             if (input == "pop")
                             {
-                                Console.WriteLine(stack_O.pop());
+                                Console.WriteLine(stack.pop());
                             }
-                            if (input == "popat") {
-                                int popat = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine(stack_O.pop_at(popat));
+                            if (input == "min") {
+                                Console.WriteLine(stack.get_min());
                             }
-                                
                         }
+                        break;
+                    case "3":
+                        Number_3_3 q_3 = new Number_3_3();
+                        break;
+                    case "4":
+                        Console.WriteLine("Number of objects to play Towers of Hanoi with?");
+                        int num_objs = Convert.ToInt32(Console.ReadLine());
+                        Number_3_4 q_4 = new Number_3_4(num_objs);
+                        break;
+                    case "5":
+                        Number_3_5 q_5 = new Number_3_5();
+                        break;
+                    case "6":
+                        Number_3_6 q_6 = new Number_3_6();
                         break;
                 }
             }

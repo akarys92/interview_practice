@@ -18,7 +18,7 @@ namespace Interview_Questions.Chapter_3
         }
         public Stack(int first) {
             head = new stack_node(first);
-            Length = 0;
+            Length = 1;
         }
         public void push(int value) {
             stack_node new_node = new stack_node(value, head);
@@ -34,6 +34,9 @@ namespace Interview_Questions.Chapter_3
             Length--;
             return temp.value;
         }
+        public int peek() {
+            return head.value;
+        }
         public void print_stack() {
             stack_node temp = head;
             Console.Write("Head->");
@@ -42,7 +45,6 @@ namespace Interview_Questions.Chapter_3
                 Console.Write(temp.value + " ");
                 temp = temp.next;
             }
-            Console.WriteLine("\n");
         }
         // Stack node class
         class stack_node

@@ -17,7 +17,7 @@ namespace Interview_Questions
             string problem = "";
             while (problem != "exit")
             {
-                Console.WriteLine("Select a Chapter (1, 2) or 'exit' to leave: ");
+                Console.WriteLine("Select a Chapter (1, 2, 3) or 'exit' to leave: ");
                 problem = Console.ReadLine();
                 switch (problem) {
                     case "1":
