@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Interview_Questions.Chapter_1;
 using Interview_Questions.Chapter_2;
 using Interview_Questions.Chapter_3;
+using Interview_Questions.Helpers;
 
 
 namespace Interview_Questions
@@ -28,6 +29,26 @@ namespace Interview_Questions
                         break;
                     case "3":
                         Chapter_3_problems ch3 = new Chapter_3_problems();
+                        break;
+                    case "test":
+                        Binary_Search_Tree tree = new Binary_Search_Tree();
+                        string input = Console.ReadLine();
+                        while (input != "back")
+                        {
+                            if (input == "search") {
+                                input = Console.ReadLine();
+                                int int_i = Convert.ToInt32(input);
+                                Console.WriteLine(tree.search(int_i));
+                            }
+                            else
+                            {
+                                int input_i = Convert.ToInt32(input);
+                                tree.insert(input_i);
+                            }
+                            input = Console.ReadLine();
+                        }
+                        
+
                         break;
                 }
             }

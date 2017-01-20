@@ -61,6 +61,8 @@
     <Compile Include="Chapter 3\Sorted_Stack.cs" />
     <Compile Include="Chapter 3\Stack.cs" />
     <Compile Include="Chapter 3\Stack_of_Stacks.cs" />
+    <Compile Include="Chapter 4\Chapter_4_problems.cs" />
+    <Compile Include="Helpers\Binary_Search_Tree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,6 +73,7 @@
     <Content Include="Chapter 1\TextFile1.txt" />
     <Content Include="Chapter 3\questions.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,4 +4,3 @@
 4) Towers of Hanoi
 5) Implement a Queue using 2 stacks
 6) Sort a stack in ascending order using only 1 other stack
-7) 
